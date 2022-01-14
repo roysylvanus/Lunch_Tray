@@ -50,6 +50,7 @@
 
                 <!-- TODO: set the side in the view model when the RadioButton is clicked -->
                 <RadioButton
+                    android:onClick="@{()->viewModel.setSide(salad.text)}"
                     android:id="@+id/salad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

@@ -54,7 +54,7 @@
 
                 <!-- TODO: set the entree in the view model when the RadioButton is clicked -->
                 <RadioButton
-                    android:onClick="@{()-> viewModel.setEntree(viewModel.menuItems[`cauliflower`].name)}"
+                    android:onClick="@{()-> viewModel.setEntree(cauliflower.text)}"
                     android:id="@+id/cauliflower"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
 
                 <!-- TODO: set the entree in the view model when the RadioButton is clicked -->
                 <RadioButton
-                    android:onClick="@{()-> viewModel.setEntree(viewModel.menuItems[`chili`].name)}"
+                    android:onClick="@{()-> viewModel.setEntree(chili.text)}"
                     android:id="@+id/chili"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
